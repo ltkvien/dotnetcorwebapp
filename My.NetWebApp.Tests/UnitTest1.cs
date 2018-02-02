@@ -12,9 +12,9 @@ namespace My.NetWebApp.Tests
             Xunit.Assert.Equal("User", user);
         }
         [Fact]
-        public void Test2(string user="user 1")
+        public void Test2()
         {
-            //var user = "User";
+            var user = "User";
             Xunit.Assert.Equal("User", user);
         }
     }
