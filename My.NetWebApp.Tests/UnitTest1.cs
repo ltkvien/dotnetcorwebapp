@@ -16,6 +16,7 @@ namespace My.NetWebApp.Tests
         {
             var user = "User";
             Xunit.Assert.Equal("User", user);
+            //test
         }
     }
 }
